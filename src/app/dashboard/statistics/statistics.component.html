@@ -1,0 +1,21 @@
+<div class="container">
+  <h2>Statistics</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Job ID</th>
+        <th>Name</th>
+        <th>Value</th>
+        <th>Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let stat of statistics">
+        <td>{{stat.body}}</td>
+        <td>{{stat.id}}</td>
+      </tr> 
+    </tbody>
+  </table>
+</div>
+
+<p class="error" *ngIf="errorMessage">{{errorMessage}}</p>

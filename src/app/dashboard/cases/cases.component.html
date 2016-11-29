@@ -1,0 +1,19 @@
+<div class="container">
+  <h2>Cases</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Case Type</th>
+        <th>Debtor ID</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let case of cases">
+        <td>{{case.casetype}}</td>
+        <td>{{case.debtorid}}</td>
+        <td>{{case.status}}</td>
+      </tr>      
+    </tbody>
+  </table>
+</div>

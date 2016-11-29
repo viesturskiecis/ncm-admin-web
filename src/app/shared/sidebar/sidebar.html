@@ -1,0 +1,13 @@
+<nav class="nav-sidebar pull-right" [ngClass]="{sidebarPushRight: isActive}">
+    <ul class="list-group">
+        <a routerLink="/dashboard/cases" [routerLinkActive]="['router-link-active']" class="list-group-item">
+            <i class="fa fa-fw fa-dashboard"></i> Green cases
+        </a>
+        <a [routerLink]="['statistics']" [routerLinkActive]="['router-link-active']" class="list-group-item">
+            <i class="fa fa-fw fa-bar-chart-o"></i> Statistics
+        </a>
+        <a [routerLink]="['monitoring']" [routerLinkActive]="['router-link-active']" class="list-group-item">
+            <i class="fa fa-fw fa-table"></i> Monitoring
+        </a>
+    </ul>
+</nav>

@@ -1,0 +1,14 @@
+.nav-sidebar { 
+    width: 100%;
+    padding: 8px 0; 
+}
+.nav-sidebar .list-group a { 
+    background-color: rgba(121, 160, 109, 1);
+    padding: 8px 0; 
+    text-align: center;
+}
+    
+.nav-sidebar .list-group a:hover { 
+  background-color: rgba(150, 212, 131, 1);
+    padding: 8px 0; 
+}    
