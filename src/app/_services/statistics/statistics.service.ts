@@ -13,19 +13,19 @@ import 'rxjs/add/operator/catch';
 export class StatisticsService {
 
     private url: string;
-    private uri: string = 'statistics';
+    private uri: string = 'statistics/';
     private headers: Headers;
 
 
     constructor(private http: Http, private configuration: Configuration) {
-        this.url = configuration.serverWithApiUrl;
+        this.url = configuration.serverWithApiUrl + this.uri;
         this.headers = configuration.headers;
      }
  
-    getStatistics(): Observable<Statistics[]> {
+    getStatistics() {
         return this.http.get(
           this.url, { headers: this.headers })
-          .map((response: Response) => <Statistics[]>response.json())
+          .map((response: Response) => response.json())
           .catch(this.handleError);
     }
 
