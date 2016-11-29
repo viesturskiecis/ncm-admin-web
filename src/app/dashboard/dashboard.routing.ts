@@ -1,10 +1,10 @@
 import { Route } from '@angular/router';
 
-import { AuthGuard } from '../_guards/index';
+import { AuthGuard } from '../core/guards/index';
 
-import { CasesRoutes } from './cases/index';
-import { StatisticsRoutes } from './statistics/index';
-import { MonitoringRoutes } from './monitoring/index';
+import { CasesRoutes } from '../components/cases/index';
+import { StatisticsRoutes } from '../components/statistics/index';
+import { MonitoringRoutes } from '../components/monitoring/index';
 
 import { DashboardComponent } from './index';
 

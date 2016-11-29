@@ -3,7 +3,7 @@ import { Http, Headers, Response } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 
 // used to create fake backend
-import { fakeBackendProvider } from '../_helpers/index';
+import { fakeBackendProvider } from '../core/helpers/index';
 import { MockBackend, MockConnection } from '@angular/http/testing';
 import { BaseRequestOptions } from '@angular/http';
 

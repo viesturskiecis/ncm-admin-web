@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
-import { Statistics } from '../../_models/statistics/index';
-import { StatisticsService } from '../../_services/statistics/index';
+import { Statistics } from '../../models/statistics/index';
+import { StatisticsService } from '../../services/statistics/index';
 
-import { Case } from '../../_models/case/index';
-import { CaseService } from '../../_services/case/index';
+import { Case } from '../../models/case/index';
+import { CaseService } from '../../services/case/index';
 
 @Component({
 	selector: 'statistics-cmp',

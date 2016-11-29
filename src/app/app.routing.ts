@@ -1,13 +1,13 @@
 import { Routes, RouterModule } from '@angular/router';
 
-import { AuthGuard } from './_guards/index';
+import { AuthGuard } from './core/guards/index';
 
-import { LoginRoutes, LoginComponent } from './login';
-import { RegisterRoutes, RegisterComponent } from './register';
+import { LoginRoutes, LoginComponent } from './components/login';
+import { RegisterRoutes, RegisterComponent } from './components/register';
 import { DashboardRoutes, DashboardComponent } from './dashboard';
-import { CasesComponent } from './dashboard/cases/index';
-import { StatisticsComponent } from './dashboard/statistics/index';
-import { MonitoringComponent } from './dashboard/monitoring/index';
+import { CasesComponent } from './components/cases/index';
+import { StatisticsComponent } from './components/statistics/index';
+import { MonitoringComponent } from './components/monitoring/index';
 
 const appRoutes: Routes = [
 	//...LoginRoutes,

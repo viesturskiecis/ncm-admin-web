@@ -4,12 +4,12 @@ import { FormsModule }    from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
 
-import { LoginModule } from './login/login.module';
-import { RegisterModule } from './register/register.module';
+import { LoginModule } from './components/login/login.module';
+import { RegisterModule } from './components/register/register.module';
 import { DashboardModule } from './dashboard/dashboard.module';
 import { SharedModule } from './shared/shared.module';
 
-import { Configuration } from './_services/service.constants';
+import { Configuration } from './services/service.constants';
 
  
 // used to create fake backend
@@ -20,11 +20,11 @@ import { Configuration } from './_services/service.constants';
 import { AppComponent }  from './app.component';
 import { routing }        from './app.routing';
  
-import { AlertComponent } from './_directives/index';
-import { AuthGuard } from './_guards/index';
-import { AlertService, AuthenticationService, UserService} from './_services/index';
-import { CaseService } from './_services/case/index';
-import { StatisticsService } from './_services/statistics/index';
+import { AlertComponent } from './core/directives/index';
+import { AuthGuard } from './core/guards/index';
+import { AlertService, AuthenticationService, UserService} from './services/index';
+import { CaseService } from './services/case/index';
+import { StatisticsService } from './services/statistics/index';
 
  
 @NgModule({

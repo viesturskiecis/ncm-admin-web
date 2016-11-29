@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Http, Headers, RequestOptions, Response } from '@angular/http';
  
-import { Case } from '../../_models/case/index';
+import { Case } from '../../models/case/index';
  
 @Injectable()
 export class CaseService {

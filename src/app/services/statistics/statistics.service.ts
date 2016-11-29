@@ -3,7 +3,7 @@ import { Http, Headers, RequestOptions, Response } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 import { Configuration } from '../service.constants';
  
-import { Statistics } from '../../_models/statistics/index';
+import { Statistics } from '../../models/statistics/index';
 
 // Import RxJs required methods
 import 'rxjs/add/operator/map';

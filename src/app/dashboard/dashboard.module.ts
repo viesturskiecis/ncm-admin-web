@@ -4,9 +4,9 @@ import { RouterModule } from '@angular/router';
 import { DropdownModule } from 'ng2-bootstrap/ng2-bootstrap';
 import { ModalModule } from 'ng2-bootstrap/ng2-bootstrap';
 
-import { CasesModule } from './cases/cases.module';
-import { StatisticsModule } from './statistics/statistics.module';
-import { MonitoringModule } from './monitoring/monitoring.module';
+import { CasesModule } from '../components/cases/cases.module';
+import { StatisticsModule } from '../components/statistics/statistics.module';
+import { MonitoringModule } from '../components/monitoring/monitoring.module';
 
 import { DashboardComponent } from './dashboard.component';
 

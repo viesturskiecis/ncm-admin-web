@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
  
-import { AlertService, UserService } from '../_services/index';
+import { AlertService, UserService } from '../../services/index';
 
 // used to create fake backend
-import { fakeBackendProvider } from '../_helpers/index';
+import { fakeBackendProvider } from '../../core/helpers/index';
 import { MockBackend, MockConnection } from '@angular/http/testing';
 import { BaseRequestOptions } from '@angular/http';
  

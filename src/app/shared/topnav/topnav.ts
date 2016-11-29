@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { User } from '../../_models/';
-import { UserService } from '../../_services/index';
+import { User } from '../../models/';
+import { UserService } from '../../services/index';
 
 @Component({
     selector: 'top-nav',

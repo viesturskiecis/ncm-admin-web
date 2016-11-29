@@ -1,10 +1,10 @@
 import {Component, OnInit} from '@angular/core';
 
-import { Case } from '../../_models/case/index';
-import { CaseService } from '../../_services/case/index';
+import { Case } from '../../models/case/index';
+import { CaseService } from '../../services/case/index';
 
 // used to create fake backend
-import { fakeBackendProvider } from '../../_helpers/index';
+import { fakeBackendProvider } from '../../core/helpers/index';
 import { MockBackend, MockConnection } from '@angular/http/testing';
 import { BaseRequestOptions } from '@angular/http';
 
